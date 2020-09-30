@@ -76,3 +76,5 @@ outroprojeto
 - Nginx (última versão)
 - MySQL 5.7 - Usuário `root` e senha `root`
 - REDIS (última versão)
+
+Comentários e sugestões serão bem-vindos!
