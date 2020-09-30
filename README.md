@@ -30,11 +30,11 @@ Crie também as entradas para os virtualhosts do Nginx dos seus projetos (uma en
 ```
 6. Crie as configurações dos seus projetos em `laradock\nginx\sites`.  Use o arquivo `laravel.conf.example` como base e faça os ajustes necessários.
 **Observação: a sua pasta de projetos equivalerá à `/var/www` no container**
-```
-    server_name ***meuprojeto.test***;
-    root /var/www/***meuprojeto***/public;
+<pre>
+    server_name <strong>meuprojeto.test</strong>;
+    root /var/www/<strong>meuprojeto<strong>/public;
 
-```
+</pre>
 Salve esse arquivo como **meuprojeto.conf**
 
 7. Acesse a pasta `laradock` e inicialize os contêineres para o ambiente:
