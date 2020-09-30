@@ -18,7 +18,7 @@ Laradock With Personal Settings
 ```
 copy copy-this-file-as-env-to-laradock-folder laradock\.env
 ```
-  1. (opcional) Edite o arquivo `.env` e altere o nome do seu projeto Laradock:
+  - (opcional) Edite o arquivo `.env` e altere o nome do seu projeto Laradock:
 ```
   COMPOSE_PROJECT_NAME=laradock
 ```
