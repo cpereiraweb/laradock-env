@@ -1,0 +1,9 @@
+#!/bin/bash
+input="./mysqldbfordocker.projetos"
+while IFS= read -r db
+do
+   [[ $db =~ ^#.* ]] && continue
+   [[ $db =~ ^\/.* ]] && continue
+   [[ $db =~ ^\;.* ]] && continue
+   echo "CREATE DATABASE IF NOT EXISTS $db COLLATE 'utf8_general_ci';" | mysql --verbose -hmysql -uroot -proot
+done < "$input"
