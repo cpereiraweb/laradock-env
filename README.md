@@ -18,6 +18,10 @@ Laradock With Personal Settings
 ```
 copy copy-this-file-as-env-to-laradock-folder laradock\.env
 ```
+4.1. (opcional) Edite o arquivo `.env` e altere o nome do seu projeto Laradock:
+```
+  COMPOSE_PROJECT_NAME=laradock
+```
 5. Edite o arquivo `hosts` do seu computador e crie as seguintes entradas:
 ```
 127.0.0.1 mysql
