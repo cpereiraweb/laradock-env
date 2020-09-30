@@ -32,7 +32,7 @@ Crie também as entradas para os virtualhosts do Nginx dos seus projetos (uma en
 **Observação: a sua pasta de projetos equivalerá à `/var/www` no container**
 <pre>
     server_name <strong>meuprojeto.test</strong>;
-    root /var/www/<strong>meuprojeto<strong>/public;
+    root /var/www/<strong>meuprojeto</strong>/public;
 
 </pre>
 Salve esse arquivo como **meuprojeto.conf**
